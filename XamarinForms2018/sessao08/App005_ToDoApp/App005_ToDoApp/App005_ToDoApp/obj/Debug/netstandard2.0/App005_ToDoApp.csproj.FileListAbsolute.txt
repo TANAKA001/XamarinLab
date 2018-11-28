@@ -1,0 +1,13 @@
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\obj\Debug\netstandard2.0\App005_ToDoApp.csprojAssemblyReference.cache
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\obj\Debug\netstandard2.0\Telas\Index.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\obj\Debug\netstandard2.0\Telas\Register.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\obj\Debug\netstandard2.0\App005_ToDoApp.csproj.CoreCompileInputs.cache
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\obj\Debug\netstandard2.0\App005_ToDoApp.AssemblyInfoInputs.cache
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\obj\Debug\netstandard2.0\App005_ToDoApp.AssemblyInfo.cs
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\bin\Debug\netstandard2.0\App005_ToDoApp.deps.json
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\bin\Debug\netstandard2.0\App005_ToDoApp.dll
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\bin\Debug\netstandard2.0\App005_ToDoApp.pdb
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\obj\Debug\netstandard2.0\App005_ToDoApp.dll
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp\obj\Debug\netstandard2.0\App005_ToDoApp.pdb

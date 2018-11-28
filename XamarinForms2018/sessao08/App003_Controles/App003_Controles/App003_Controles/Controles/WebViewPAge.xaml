@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App003_Controles.Controles.WebViewPAge">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Previous" Clicked="BtnPrev_Clicked"/>
+                <Entry x:Name="site" HorizontalOptions="FillAndExpand"/>
+                <Button Text="GO!" Clicked="BtnGo_Clicked"/>
+                <Button Text="Forward" Clicked="BtnForw_Clicked"/>
+
+            </StackLayout>
+            <ProgressBar x:Name="Bar" Progress="0" IsVisible="False"/>
+            <WebView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                     x:Name="Browser"
+                     Source="http://google.com"
+                     Navigated="webLoaded"
+                     Navigating="webLoading"
+                     >
+                
+            </WebView>
+            <Label x:Name="status"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

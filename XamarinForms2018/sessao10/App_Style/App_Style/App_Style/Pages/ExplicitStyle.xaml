@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Style.Pages.ExplicitStyle">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!--Implicity-->
+            <Style TargetType="Label">
+                <Setter Property="BackgroundColor" Value="CadetBlue"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+                
+            </Style>
+            <!--Explicity-->
+            <Style x:Key="LblStyle" TargetType="Label">
+                <Setter Property="BackgroundColor" Value="BlueViolet"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="001"/>
+            <Label Text="002"/>
+            <Label Text="003"/>
+            <Label Text="004" Style="{StaticResource LblStyle}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

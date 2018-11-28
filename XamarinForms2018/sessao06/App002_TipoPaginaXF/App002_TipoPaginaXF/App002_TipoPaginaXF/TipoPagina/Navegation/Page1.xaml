@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App002_TipoPaginaXF.TipoPagina.Navegation.Page1"
+             Title="Page001">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisa" Icon="falloutDie.png"></ToolbarItem>
+        <ToolbarItem Text="Detalhes" Icon="falloutoki.png"></ToolbarItem>
+        <ToolbarItem Text="Ordenar" Icon="falloutOkie.png"></ToolbarItem>
+        
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand">
+            <Label Text="I am a content page!"
+                VerticalOptions="CenterAndExpand"  />
+            <Button Text="-> pagina 2" Clicked="MudarPagina" ></Button>
+            <Button Text="Chamar Modal" Clicked="ChamarModal"></Button>
+            <Button Text="Chamar Master" Clicked="ChamarMaster"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

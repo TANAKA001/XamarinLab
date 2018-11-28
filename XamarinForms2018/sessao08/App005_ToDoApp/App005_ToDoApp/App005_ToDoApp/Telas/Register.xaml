@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App005_ToDoApp.Telas.Register">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout BackgroundColor="#354F9C" HeightRequest="150" Padding="10">
+                <Label Text="Meu Dia" TextColor="White" FontSize="24" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Label x:Name="date" TextColor="White" HorizontalOptions="Start" VerticalOptions="End"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" Spacing="15" x:Name="SLMain" Padding="10">
+               
+                <Label Text="Nome" FontAttributes="Bold"/>
+               
+                <Entry x:Name="TxtName" HorizontalOptions="FillAndExpand"/>
+                
+                <Label Text="Prioridade" FontAttributes="Bold"/>
+                
+                <StackLayout x:Name="SLPriorities" >
+                   
+                </StackLayout>
+                
+                <StackLayout>
+                    <Button Image="Icons/add.png" Text="Save" Clicked="RegisterTask" HorizontalOptions="End"/>
+                </StackLayout>
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:page="clr-namespace:App_Style"
+             x:Class="App_Style.Menu.Master">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <Button Text="ImplicitStyle" Clicked="Button_ImplicitStyle"/>
+                <Button Text="ExplicitStyle" Clicked="Button_ExplicitStyle"/>
+                <Button Text="GlobalStyle" Clicked="Button_GlobalStyle"/>
+                <Button Text="DynamicStyle" Clicked="Button_DynamicStyle"/>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <page:MainPage/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+
+
+</MasterDetailPage>

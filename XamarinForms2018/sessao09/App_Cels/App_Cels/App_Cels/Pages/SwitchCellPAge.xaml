@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Cels.Pages.SwitchCellPAge">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="Configuration">
+                        <SwitchCell On="False" Text="Config 1" />
+                        <SwitchCell On="True" Text="Config 2" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

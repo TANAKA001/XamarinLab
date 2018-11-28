@@ -1,0 +1,1 @@
+C:\GitHub\XamarinForms2018\sessao10\App_Style\App_Style\App_Style.UWP\App_Style.UWP.csproj;x86

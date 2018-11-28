@@ -1,0 +1,17 @@
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\bin\Debug\netstandard2.0\App_Cels.deps.json
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\bin\Debug\netstandard2.0\App_Cels.dll
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\bin\Debug\netstandard2.0\App_Cels.pdb
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\Menu\Main.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\Pages\ImageCellPage.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\Pages\TextCellPage.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\App_Cels.csproj.CoreCompileInputs.cache
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\App_Cels.AssemblyInfoInputs.cache
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\App_Cels.AssemblyInfo.cs
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\App_Cels.dll
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\App_Cels.pdb
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\Pages\EntryCellPage.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\Pages\SwitchCellPAge.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\App_Cels.csprojAssemblyReference.cache
+C:\GitHub\XamarinForms2018\sessao09\App_Cels\App_Cels\App_Cels\obj\Debug\netstandard2.0\Pages\DetailShore.xaml.g.cs

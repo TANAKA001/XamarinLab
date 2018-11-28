@@ -1,0 +1,1 @@
+C:\GitHub\XamarinForms2018\sessao05\App001_ConsultarCEP\App001_ConsultarCEP\App001_ConsultarCEP.UWP\App001_ConsultarCEP.UWP.csproj;x86

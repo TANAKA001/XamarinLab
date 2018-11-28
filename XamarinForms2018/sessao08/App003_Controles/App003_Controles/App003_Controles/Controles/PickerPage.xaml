@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App003_Controles.Controles.PickerPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Picker 
+                Title="c"
+                TextColor="Azure"
+                x:Name="SiFy"
+                SelectedItem="0"
+                SelectedIndexChanged="SiFy_SelectedIndexChanged"
+                >
+                <Picker.Items>
+                    <x:String>Selecione</x:String>
+                    <x:String>Microsoft</x:String>
+                    <x:String>Apple</x:String>
+                    <x:String>IBM</x:String>
+                    <x:String>Tesla</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <Picker BackgroundColor="Red"  x:Name="teste">
+            
+        </Picker>
+
+        <Picker>
+                <Picker.BackgroundColor>
+                    Blue
+                </Picker.BackgroundColor>
+        </Picker>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

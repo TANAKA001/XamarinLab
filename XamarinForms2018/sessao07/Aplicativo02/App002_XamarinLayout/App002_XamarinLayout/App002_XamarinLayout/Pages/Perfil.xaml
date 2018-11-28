@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App002_XamarinLayout.Pages.Perfil">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            <RelativeLayout VerticalOptions="Start" HeightRequest="200" HorizontalOptions="Center">
+                <Image Source="free.png" x:Name="fundo" 
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}">
+                    
+                </Image>
+                <Image Source="xamarinLogo.png"
+                       x:Name="imagemPerfil"
+                       WidthRequest="120"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.5, Constant=-60}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.2}"
+                       />
+                <Label Text="Perfil do usuario"
+                       TextColor="Black"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, Property=X, Factor=1, ElementName=imagemPerfil}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, Property=Y, Factor=1, Constant=10, ElementName=imagemPerfil}"
+                    />
+            </RelativeLayout>
+            <Grid BackgroundColor="#001f3f" HeightRequest="100" Padding="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+                <StackLayout HorizontalOptions="CenterAndExpand" Grid.Column="0" Grid.Row="0">
+                    <Label Text="18" TextColor="White" FontSize="12"/>
+                    <Label Text="anos" HorizontalTextAlignment="Center" TextColor="White" FontSize="12"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0">
+                    <Label Text="00/00/0000" TextColor="White" FontSize="12"/>
+                    <Label Text="nascido" HorizontalTextAlignment="Center"  TextColor="White" FontSize="12"/>
+                </StackLayout>
+            </Grid>
+            <StackLayout Padding="30" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <ScrollView>
+                    <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ultricies, ligula quis sagittis egestas, turpis tortor pretium orci, ut eleifend libero tellus quis ligula. Nunc sagittis, erat vel malesuada molestie, neque purus lobortis diam, vel commodo est turpis a ante. Morbi molestie tellus nisi, hendrerit commodo eros interdum sed. Curabitur hendrerit nisl non consequat eleifend. Donec sit amet dui erat. Fusce blandit nunc est, vel vulputate mi varius vel. Suspendisse ornare orci sed arcu ornare sollicitudin. Nam auctor ac orci ac fringilla. Duis luctus nunc leo, at ornare risus laoreet nec. Nunc sit amet tortor ac nisi efficitur accumsan. Duis vitae eros mi. Aenean vestibulum lorem sed ipsum volutpat, a ultricies orci commodo. Nulla dignissim diam quis sagittis lobortis. Praesent sollicitudin, lectus eget efficitur suscipit, eros mauris placerat risus, quis consequat elit felis ut sapien.
+
+Integer porta ligula at purus commodo, quis posuere odio facilisis. Mauris justo augue, suscipit at justo quis, posuere bibendum massa. Ut egestas ex sit amet pharetra vulputate. Duis at posuere elit, eget mollis risus. Curabitur bibendum ante ut maximus posuere. Suspendisse potenti. Maecenas tellus tortor, egestas nec bibendum a, posuere eu lectus. Sed hendrerit diam at efficitur aliquet. Vestibulum eget mollis lorem. In vehicula dignissim velit nec sodales. Cras eu lobortis lectus. Sed pulvinar orci ex, id gravida eros dictum pulvinar. Phasellus eu urna mattis, varius nibh vel, facilisis risus. Suspendisse potenti. Vivamus viverra dictum porttitor. Aliquam interdum sed odio in vestibulum."/>
+                </ScrollView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

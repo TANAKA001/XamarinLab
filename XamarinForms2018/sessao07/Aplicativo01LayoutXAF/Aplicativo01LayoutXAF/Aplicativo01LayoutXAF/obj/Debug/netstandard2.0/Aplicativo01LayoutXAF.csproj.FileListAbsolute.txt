@@ -1,0 +1,17 @@
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\bin\Debug\netstandard2.0\Aplicativo01LayoutXAF.deps.json
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\bin\Debug\netstandard2.0\Aplicativo01LayoutXAF.dll
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\bin\Debug\netstandard2.0\Aplicativo01LayoutXAF.pdb
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Layout\Absolute\AbsolutePage.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Layout\Grid\GridPage.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Layout\Relative\RelativePage.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Layout\Scroll\ScrollPage.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Layout\Stack\StackPage.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Aplicativo01LayoutXAF.csproj.CoreCompileInputs.cache
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Aplicativo01LayoutXAF.AssemblyInfoInputs.cache
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Aplicativo01LayoutXAF.AssemblyInfo.cs
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\XamlC.stamp
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Aplicativo01LayoutXAF.dll
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Aplicativo01LayoutXAF.pdb
+C:\GitHub\XamarinForms2018\sessao07\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\Aplicativo01LayoutXAF\obj\Debug\netstandard2.0\Aplicativo01LayoutXAF.csprojAssemblyReference.cache

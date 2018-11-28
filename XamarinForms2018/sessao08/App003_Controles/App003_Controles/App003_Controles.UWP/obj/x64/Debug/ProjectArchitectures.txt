@@ -1,0 +1,1 @@
+C:\GitHub\XamarinForms2018\sessao08\App003_Controles\App003_Controles\App003_Controles.UWP\App003_Controles.UWP.csproj;x64

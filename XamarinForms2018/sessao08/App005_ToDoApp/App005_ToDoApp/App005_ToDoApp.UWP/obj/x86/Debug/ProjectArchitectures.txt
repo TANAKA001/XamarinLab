@@ -1,0 +1,1 @@
+C:\GitHub\XamarinForms2018\sessao08\App005_ToDoApp\App005_ToDoApp\App005_ToDoApp.UWP\App005_ToDoApp.UWP.csproj;x86

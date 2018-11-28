@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App003_Controles.Controles.TableViewPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <TableView Intent="Settings">
+                <TableRoot>
+                    <TableSection Title="BackUp">
+                        <SwitchCell Text="Overral BackUp" On="True" x:Name="bkpGeral" OnChanged="switch_Toggled"/>
+                        <SwitchCell Text="Image BacKup" On="False" IsEnabled="False" x:Name="bkpImagens"/>
+                        <SwitchCell Text="Chat BackUp" On="False" IsEnabled="False" x:Name="bkpChat"/>
+                        <SwitchCell Text="Videos BackUp" On="False" IsEnabled="False" x:Name="bkpVideos"/>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Frequency of BackUp"/>
+                                <Slider Minimum="0" Maximum="7" HorizontalOptions="FillAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Criptografia">
+                        <SwitchCell Text="Crypto BackUp" On="False" x:Name="crptBackUp"/>
+                        <SwitchCell Text="Crypto WWS" On="False" x:Name="crptWWS"/>
+                    </TableSection>
+                    <TableSection Title="Security">
+                        <SwitchCell Text="Rerquire PIN" On="False" x:Name="secPin"/>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

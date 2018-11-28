@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App003_Controles.Controles.ButtonPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Image="btn.png" HeightRequest="100" HorizontalOptions="Start" BackgroundColor="Transparent"/>
+
+            <Button Text="BUTAO" 
+                    TextColor="BlueViolet"
+                    FontSize="24"
+                    BorderRadius="20"
+                    BorderColor="Aquamarine"
+                    BorderWidth="5"
+                    
+                    HeightRequest="100" HorizontalOptions="Start" BackgroundColor="Black" />
+            
+            <Button Text="BUTAO" HeightRequest="100" HorizontalOptions="Start"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

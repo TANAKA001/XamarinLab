@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App003_Controles.Controles.ImagePage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout>
+                    <Image
+                 Source="http://logok.org/wp-content/uploads/2014/05/Carrefour-c-logo-880x660.png"
+                Aspect="AspectFill"
+                        x:Name="IMG001"
+                    
+                />
+                </StackLayout>
+                <!--<StackLayout>
+                    <Image
+                 Source="http://logok.org/wp-content/uploads/2014/05/Carrefour-c-logo-880x660.png"
+                Aspect="AspectFit"
+                />
+                </StackLayout>
+                <StackLayout>
+                    <Image
+                 Source="http://logok.org/wp-content/uploads/2014/05/Carrefour-c-logo-880x660.png"
+                Aspect="Fill"
+                />
+                </StackLayout>-->
+                <StackLayout x:Name="Container" BackgroundColor="CadetBlue">
+                    
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

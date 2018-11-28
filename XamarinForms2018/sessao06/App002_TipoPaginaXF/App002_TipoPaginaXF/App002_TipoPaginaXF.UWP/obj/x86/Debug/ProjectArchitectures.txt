@@ -1,0 +1,1 @@
+C:\GitHub\XamarinForms2018\sessao06\App002_TipoPaginaXF\App002_TipoPaginaXF\App002_TipoPaginaXF.UWP\App002_TipoPaginaXF.UWP.csproj;x86

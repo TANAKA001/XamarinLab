@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App002_XamarinLayout.Pages.Xamarin">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+            <StackLayout BackgroundColor="Azure" Padding="30">
+                <Image Source="xamarinLogo2.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout HeightRequest="100" BackgroundColor="#0D1F2D" Padding="30">
+                <Label Text="XAMARIN" TextColor="White" FontSize="40" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="30" >
+                <RelativeLayout Padding="20">
+                    <BoxView x:Name="box1" BackgroundColor="LightGray" WidthRequest="30" HeightRequest="30"/>
+
+                    <BoxView x:Name="box2" 
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=box1, Property=X, Factor=1,Constant=12}"
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=box1, Property=Y, Factor=1,Constant=12}"
+                             BackgroundColor="Gray" WidthRequest="30" HeightRequest="30"/>
+
+                    <BoxView BackgroundColor="DarkGray" 
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=box2, Property=X, Factor=1,Constant=12}"
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=box2, Property=Y, Factor=1,Constant=12}"
+                             WidthRequest="30" HeightRequest="30"/>
+                </RelativeLayout>
+
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Empresa" TextColor="Black" FontSize="40" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

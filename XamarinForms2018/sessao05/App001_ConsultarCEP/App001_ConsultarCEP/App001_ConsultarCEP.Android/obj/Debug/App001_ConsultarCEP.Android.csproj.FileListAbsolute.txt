@@ -1,0 +1,2 @@
+C:\Users\TANAKA\.nuget\packages\xamarin.forms\3.0.0.561731\lib\MonoAndroid10\FormsViewGroup.dll
+C:\Users\TANAKA\.nuget\packages\xamarin.forms\3.0.0.561731\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Cels.Pages.TextCellPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <ListView x:Name="ListPersons">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Name}" Detail="{Binding Function}" TextColor="CadetBlue" DetailColor="Black">
+                                <TextCell.ContextActions>
+                                    <MenuItem Text="Vacation" Clicked="MenuItem_ClickedVacation" CommandParameter="{Binding .}"/>
+                                    <MenuItem Text="Income" Clicked="MenuItem_ClickedIncome" CommandParameter="{Binding .}"/>
+                                    <MenuItem Text="Discount" Clicked="MenuItem_ClickedDiscount" CommandParameter="{Binding .}"/>
+                                </TextCell.ContextActions>
+                            </TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <StackLayout >
+                <ListView x:Name="ListShores" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Label Text="{Binding Name}"/>
+                                    <Label Text="{Binding Category}"/>
+                                    <Button Text="Vacation" Clicked="Button_Clicked" CommandParameter="{Binding .}"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App003_Controles.UWP", "App003_Controles\App003_Controles.UWP\App003_Controles.UWP.csproj", "{8F19759C-49D5-4BDB-BAAF-F513C7823C95}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "App003_Controles", "App003_Controles\App003_Controles\App003_Controles.shproj", "{55F030CE-3E62-4A51-A63D-815EA936A2E6}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		App003_Controles\App003_Controles\App003_Controles.projitems*{55f030ce-3e62-4a51-a63d-815ea936a2e6}*SharedItemsImports = 13
+		App003_Controles\App003_Controles\App003_Controles.projitems*{8f19759c-49d5-4bdb-baaf-f513c7823c95}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Debug|ARM.Build.0 = Debug|ARM
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Debug|ARM.Deploy.0 = Debug|ARM
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Debug|x64.ActiveCfg = Debug|x64
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Debug|x64.Build.0 = Debug|x64
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Debug|x64.Deploy.0 = Debug|x64
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Debug|x86.ActiveCfg = Debug|x86
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Debug|x86.Build.0 = Debug|x86
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Debug|x86.Deploy.0 = Debug|x86
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Release|Any CPU.ActiveCfg = Release|x86
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Release|ARM.ActiveCfg = Release|ARM
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Release|ARM.Build.0 = Release|ARM
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Release|ARM.Deploy.0 = Release|ARM
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Release|x64.ActiveCfg = Release|x64
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Release|x64.Build.0 = Release|x64
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Release|x64.Deploy.0 = Release|x64
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Release|x86.ActiveCfg = Release|x86
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Release|x86.Build.0 = Release|x86
+		{8F19759C-49D5-4BDB-BAAF-F513C7823C95}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C95A6CB-6CA3-4825-B0CA-0BFB85C3646C}
+	EndGlobalSection
+EndGlobal

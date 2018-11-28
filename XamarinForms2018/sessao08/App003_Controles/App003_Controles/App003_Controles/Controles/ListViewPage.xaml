@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mod="clr-namespace:App003_Controles.Modelo"
+             x:Class="App003_Controles.Controles.ListViewPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView>
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type mod:Pessoa}">
+                        <mod:Pessoa Nome="Pessoa 01" Idade="20"/>
+                        <mod:Pessoa Nome="Pessoa 02" Idade="30"/>
+                        <mod:Pessoa Nome="Pessoa 03" Idade="40"/>
+                        <mod:Pessoa Nome="Pessoa 04" Idade="50"/>
+                    </x:Array>
+                </ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <!--Como o layout da listView sera vizualizado-->
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Nome}"/>
+                                <Label Text=" - "/>
+                                <Label Text="{Binding Idade}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="5" Color="AliceBlue"/>
+            
+            <ListView x:Name="lvCars">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <!--Como o layout da listView sera vizualizado-->
+                            <StackLayout Orientation="Horizontal" Margin="10">
+                                <Label Text="{Binding Brand}"/>
+                                <Label Text=" - "/>
+                                <Label Text="{Binding Rate}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
